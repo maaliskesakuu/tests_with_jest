@@ -3,6 +3,7 @@
 const onlySpaces = /^[ ]*$/g;
 
 exports.sum = (a, b) => {
+
 	if (a == undefined || b == undefined) {
 		throw new Error('parameter missing');
 	}

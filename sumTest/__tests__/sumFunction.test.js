@@ -161,7 +161,7 @@ describe('parameters are not numbers in subtract', () => {
 	);
 });
 
-describe('Test divide with testcases', () => {
+describe('Test divide with common testcases', () => {
 	const testCases = [
 		[1, 2, 0.5],
 		[4, 2, 2],
@@ -197,9 +197,7 @@ describe('Test divide with testcases', () => {
 describe('Test divide with special testcases', () => {
 	const testCases = [
 		[0, 0, Number.NaN],
-		[0, 0, NaN],
 		[2, 0, Number.POSITIVE_INFINITY],
-		[2, 0, Infinity],
 		[-2, 0, Number.NEGATIVE_INFINITY],
 		[Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY, Number.NaN],
 		[Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY, Number.NaN],

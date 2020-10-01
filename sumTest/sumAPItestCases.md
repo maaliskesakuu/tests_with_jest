@@ -48,7 +48,7 @@ Returns the sum of two numbers. Numbers are passed to the function as parameters
 -   sum(1, 'a') throws an exception `'only numbers allowed'`
 -   sum('a', 'b') throws an exception `'only numbers allowed'`
 -   sum('','') throws an exception `'only numbers allowed'`
--   sum(null, 1) throws an exception `'parameter missing'`,
+-   sum(null, 1) throws an exception `'parameter missing'`
 -   sum(undefined, 1) throws an exception `'parameter missing'`
 
 ## **subtract(a,b)**
@@ -100,5 +100,5 @@ Returns the difference of two numbers. Numbers are passed to the function as par
 -   subtract(1, 'a') throws an exception `'only numbers allowed'`
 -   subtract('a', 'b') throws an exception `'only numbers allowed'`
 -   subtract('','') throws an exception `'only numbers allowed'`
--   subtract(null, 1) throws an exception `'parameter missing'`,
+-   subtract(null, 1) throws an exception `'parameter missing'`
 -   subtract(undefined, 1) throws an exception `'parameter missing'`

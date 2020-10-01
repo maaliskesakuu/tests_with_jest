@@ -73,5 +73,5 @@ Infinity/-Infinity
 -   divide(1, 'a') throws an exception `'only numbers allowed'`
 -   divide('a', 'b') throws an exception `'only numbers allowed'`
 -   divide('','') throws an exception `'only numbers allowed'`
--   divide(null, 1) throws an exception `'parameter missing'`,
+-   divide(null, 1) throws an exception `'parameter missing'`
 -   divide(undefined, 1) throws an exception `'parameter missing'`
