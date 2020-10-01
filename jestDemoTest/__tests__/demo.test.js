@@ -83,11 +83,11 @@ describe('This tests for an exception', () => {
 
 describe('This tests an asynchronous function', () => {
 	test('Test promise resolve', () => {
-		expect(Promise.resolve('resolved')).resolves.toBe('resolved');
+		return expect(Promise.resolve('resolved')).resolves.toBe('resolved');
 	});
 
 	test('Test promise reject', () => {
-		expect(Promise.reject('rejected')).rejects.toBe('rejected');
+		return expect(Promise.reject('rejected')).rejects.toBe('rejected');
 	});
 });
 
@@ -115,13 +115,15 @@ describe('Test with an array of test values', () => {
 
 	// different ways to do the same as test.each
 
-	test(`${testValues[0][0]} and ${testValues[0][1]}=${testValues[0][2]}`, ()=> {
-		expect(concat(testValues[0][0], testValues[0][1])).toBe(testValues[0][2])
+	test(`${testValues[0][0]} and ${testValues[0][1]}=${testValues[0][2]}`, () => {
+		expect(concat(testValues[0][0], testValues[0][1])).toBe(
+			testValues[0][2]
+		);
 	});
 
-	for(let value of testValues) {
-		test(`${value[0]} and ${value[1]}=${value[2]}`, ()=> {
-			expect(concat(value[0], value[1])).toBe(value[2])
-		})
+	for (let value of testValues) {
+		test(`${value[0]} and ${value[1]}=${value[2]}`, () => {
+			expect(concat(value[0], value[1])).toBe(value[2]);
+		});
 	}
 });
