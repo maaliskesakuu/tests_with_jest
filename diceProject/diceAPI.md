@@ -18,25 +18,26 @@ This is a Dice class for dice games. Dice has a field that holds the number of d
 
 #### **minimumValue**
 
-    -   returns the lower bound of a dice. It should be 1.
+-   returns the lower bound of a dice. It should be 1.
 
 #### **maximumValue**
 
-    -   returns the upper bound of a dice
+-   returns the upper bound of a dice
 
 #### **dots**
 
-    -   returns the number of dots
+-   returns the number of dots
 
 ### **methods**
 
 #### **roll**
 
-    -   rolls the dice
-    -   dot count becomes a random number between 1 and the upper bound
-    -   when a dice is rolled, the dot count can't become zero again.
-    -   returns nothing
+-   rolls the dice
+-   dot count becomes a random number between 1 and the upper bound
+-   when a dice is rolled, the dot count can't become zero again.
+-   returns nothing
 
 #### **toString**
+
 -   returns dot count as a string, for example `'4'`
 -   if the dice hasn't been rolled yet, returns a text `'Not rolled yet'`
