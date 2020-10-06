@@ -36,6 +36,7 @@ This is a Dice class for dice games. Dice has a field that holds the number of d
     -   'a' throws an exception 'Upper bound must be an integer'
     -   2.5 throws an exception 'Upper bound must be an integer'
 
+<div style="page-break-after:always;"></div>
 ### **getters**
 
 #### **minimumValue**
@@ -77,6 +78,7 @@ This is a Dice class for dice games. Dice has a field that holds the number of d
    Test when the dice hasn't been rolled. Dot count should be 0.
    Test when rolled, dot count should be between 1 and 20.
 
+<div style="page-break-after:always;"></div>
 #### **toString**
 
 -   returns dot count as a string, for example `'4'`
